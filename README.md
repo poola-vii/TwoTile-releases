@@ -4,7 +4,7 @@
 
 広い画面でウィンドウを手で並べ直す手間をなくします。操作を覚える必要はありません。タスクトレイに常駐し、ウィンドウを開いたり閉じたりするたびに、背景で配置を整えます。
 
-> **準備中です。まだ配っていません。** ここは TwoTile のポータブル版の配布元ですが、**Releases はまだ空です。** **最初に公開する版は 1.0.1** で、用意できたらここに置いて SHA-256 を載せます。公式サイトは <https://poola-vii.github.io/twotile/> です。
+> **これは無料の公開βです。** 安定版ではありません。[既知の制限](known_issues.md)を読んでからお使いください。ここは TwoTile の**ポータブル版**の配布元です。Microsoft Store 版は <https://apps.microsoft.com/detail/9NFM07C9TNPS> から入れられます。公式サイトは <https://poola-vii.github.io/twotile/> です。
 >
 > このリポジトリはポータブル版を配るためのもので、**TwoTile のソースコードは含みません**（ソースは非公開です）。
 
@@ -30,17 +30,17 @@
 
 ## 入手する
 
-**どちらもまだ用意していません。** 公開したときに、ここと公式サイトへ載せます。
-
 ### Microsoft Store 版（おすすめ）
 
-Store から入れていただく形にします。更新は Store が知らせます。**Smart App Control がオンの PC では、Store 版をお使いください。**
+<https://apps.microsoft.com/detail/9NFM07C9TNPS>
+
+Store から入れてください。更新は Store が知らせます。**Smart App Control がオンの PC では、Store 版をお使いください。**
 
 ### ポータブル版（このリポジトリ）
 
-**Store が使えない PC 向けです。** インストールは要りません。`TwoTile.exe` を好きな場所に置いて実行する形にします。
+**Store が使えない PC 向けです。** インストールは要りません。`TwoTile.exe` を好きな場所に置いて実行してください。
 
-- 入手先（公開後）: このリポジトリの [Releases](https://github.com/poola-vii/TwoTile-releases/releases)
+- 入手先: このリポジトリの [Releases](https://github.com/poola-vii/TwoTile-releases/releases)
 - 更新の知らせ: Releases の Atom フィード（`https://github.com/poola-vii/TwoTile-releases/releases.atom`）、このリポジトリの Watch、公式サイトの[変更履歴](CHANGELOG.md)。**アプリからは通信しないため、アプリが更新を知らせることはありません。**
 - ほかの人に紹介するときは、ファイルを渡すのではなく、このページか公式サイトを教えてください（配り方の決まりは[利用条件](terms.md) §4）。
 
@@ -57,7 +57,11 @@ Store から入れていただく形にします。更新は Store が知らせ�
 Get-FileHash .\TwoTile.exe -Algorithm SHA256
 ```
 
-**照合する SHA-256 は、公開する版を置くときに、この README と各 Release に載せます。** 値が違うときは使わないでください。
+| 版 | ファイル | SHA-256 |
+|:---|:---|:---|
+| 1.0.1 | `TwoTile.exe` | `44C461CD82A0A6989F2702DD915119C3A23EF5EBC775EBC3AF13838228CD4F1D` |
+
+値が違うときは使わないでください。
 
 ## 最初に使うとき
 
