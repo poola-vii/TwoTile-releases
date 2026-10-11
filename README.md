@@ -95,7 +95,7 @@ Get-FileHash .\TwoTile.exe -Algorithm SHA256
 ## 困ったとき
 
 - [既知の制限](known_issues.md) — うまくいかない場面と、確かめていない環境
-- [問い合わせ先とサポート範囲](https://poola-vii.github.io/twotile/support.html) — 不具合の知らせ方。窓口は <https://github.com/poola-vii/support> の1つだけです
+- [問い合わせ先とサポート範囲](https://poola-vii.github.io/twotile/support.html) — 不具合の知らせ方。窓口は <https://github.com/poola-vii/support>（おすすめ）と、GitHub のアカウントがない方向けのメールです
 - [ログ採取方法](https://poola-vii.github.io/twotile/log_collection.html) — 問い合わせに添える情報の取り出し方
 
 ## その他
