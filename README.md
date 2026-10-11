@@ -31,7 +31,7 @@
 - **並べ直すときに、音も通知も出しません**
 - **通信しません。** 利用者の情報を集めません。設定は PC の中のファイルにだけ保存します
 
-> **これは無料の公開βです。** 安定版ではありません。[既知の制限](known_issues.md)を読んでからお使いください。ここは TwoTile の**ポータブル版**の配布元です。Microsoft Store 版は <https://apps.microsoft.com/detail/9NFM07C9TNPS> から入れられます。公式サイトは <https://poola-vii.github.io/twotile/> です。
+> **いまは無料の公開βとして配っています。** 気づいたことがあれば、公式サイトの問い合わせ窓口からお知らせください。分かっている制限は[既知の制限](known_issues.md)にまとめています。ここは TwoTile の**ポータブル版**の配布元です。Microsoft Store 版は <https://apps.microsoft.com/detail/9NFM07C9TNPS> から入れられます。公式サイトは <https://poola-vii.github.io/twotile/> です。
 >
 > このリポジトリはポータブル版を配るためのもので、**TwoTile のソースコードは含みません**（ソースは非公開です）。
 
@@ -39,7 +39,7 @@
 
 | | |
 |---|---|
-| OS | Windows 11（64 ビット）。Windows 10 は**未検証**です |
+| OS | Windows 11（64 ビット） |
 | CPU | x64。ARM と 32 ビットには対応しません |
 | .NET | **不要**です。実行に必要なものは同梱しています |
 | ヘルプの表示 | WebView2 ランタイム。Windows 11 には最初から入っています |
@@ -94,7 +94,7 @@ Get-FileHash .\TwoTile.exe -Algorithm SHA256
 
 ## 困ったとき
 
-- [既知の制限](known_issues.md) — うまくいかない場面と、確かめていない環境
+- [既知の制限](known_issues.md) — 分かっている制限と、動作を確かめた環境
 - [問い合わせ先とサポート範囲](https://poola-vii.github.io/twotile/support.html) — 不具合の知らせ方。窓口は <https://github.com/poola-vii/support>（おすすめ）と、GitHub のアカウントがない方向けのメールです
 - [ログ採取方法](https://poola-vii.github.io/twotile/log_collection.html) — 問い合わせに添える情報の取り出し方
 
