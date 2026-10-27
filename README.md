@@ -76,6 +76,7 @@ Get-FileHash .\TwoTile.exe -Algorithm SHA256
 
 | 版 | ファイル | SHA-256 |
 |:---|:---|:---|
+| 1.0.9 | `TwoTile.exe` | `3D04577B7AE37C7B7399EDC9DA6E9DF6197966B9DDC8FDBE12E13A755614C680` |
 | 1.0.6 | `TwoTile.exe` | `E7C1C65086C6B2AE1A3F1197C35ED00535A2614AE64AF0EF628A9AE8E83B63B9` |
 | 1.0.4 | `TwoTile.exe` | `1B061625589ED62FCBF638554DD6FAF7B2C8EC95C4281E9DC638F576A42EDEE1` |
 | 1.0.3 | `TwoTile.exe` | `247A165D48689C2EF3E07046E7CDA4233CACCB10DEAE841A34200A4BA7B227CF` |
@@ -83,6 +84,18 @@ Get-FileHash .\TwoTile.exe -Algorithm SHA256
 | 1.0.1 | `TwoTile.exe` | `44C461CD82A0A6989F2702DD915119C3A23EF5EBC775EBC3AF13838228CD4F1D` |
 
 値が違うときは使わないでください。
+
+### 前の版に戻す
+
+新しい版で困ったことが起きたときは、前の版に戻せます。
+
+1. タスクトレイのメニューの「終了」で TwoTile を終わらせます。
+2. 入手先（<https://github.com/poola-vii/TwoTile-releases/releases>）から、戻したい版の `TwoTile.exe` を入手し、上の「入手したファイルを確かめる」で本物かどうかを確かめます。
+3. いま使っている `TwoTile.exe` を、入手したファイルで置き換えて起動します。トレイメニューのいちばん上に、戻した版の番号が出ます。
+
+設定（`config.json`）はそのまま使われます。ただし、新しい版で足された設定は前の版では使われず、前の版で設定を保存するとその設定は消えます（ほかの設定は残ります）。同じ場所に置き換えたなら、「OS起動時に自動実行」もそのまま続きます。
+
+Store 版は、利用者の側で前の版に戻すことはできません。問題が出たら[問い合わせ窓口](https://poola-vii.github.io/twotile/support.html)へお知らせください。戻したときも、何が起きたかをお知らせいただけると助かります。
 
 ## 最初に使うとき
 
